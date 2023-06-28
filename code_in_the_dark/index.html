@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+boxsizing : border-box;
+margin:0;
+padding:0;
+list-style:none;
+color:white;
+}
+
+html{
+height:100%;
+width:100%;
+}
+
+body{
+display:flex;
+flex-direction : column;
+height : 100%;
+width:100%;
+background-image: url("http://vps-d5babf40.vps.ovh.net:5500/maquette1.jpg");
+background-opacity : 15%; 
+}
+
+main{
+flex:1;
+height:100%;
+}
+
+nav{
+border : 1px solid white;
+width:100%;
+}
+
+
+
+ul{
+display: flex; 
+justify-content:space-around;
+
+}
+
+.cardContainer{
+display : flex ;
+justify-content: center;
+align-item:center;
+width : 70%;
+height:70%;
+margin : 0 auto;
+border : 0 1px 0 1px solid white;
+
+}
+
+.greenCard{
+height : 100px;
+width:150px;
+background-color:#2DA038;
+
+}
+
+.redCard{
+height : 100px;
+width:150px;
+background-color:#C51D1D;
+text-align:center;
+
+}
+
+</style>
+<title>Tu aimes les cascades? </title>
+</head>
+
+
+
+<body>
+
+
+<nav>
+<ul>
+<li>Accueil</li>
+<li>Présentation</li>
+<li>Contact</li>
+<li>Boutique</li>
+</ul>
+</nav>
+
+<main>
+
+<div class="cardContainer">
+<div class="greenCard"><p>Love it</p></div>
+<div class="redCard"> <p>Hate it</p></div>
+
+
+
+
+</div>
+
+
+</main>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

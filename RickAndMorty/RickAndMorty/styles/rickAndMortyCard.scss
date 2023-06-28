@@ -1,0 +1,22 @@
+.rick-and-morty-card {
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 48px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: whitesmoke;
+
+    p {
+        padding-block: 24px;
+        font-size: 28px;
+        background-color: whitesmoke;
+
+    }
+
+    img {
+        height: 300px;
+        border-radius: 20px;
+    }
+}

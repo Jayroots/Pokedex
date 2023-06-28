@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#parent {
+
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 400PX;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid rgb(46, 120, 163);
+
+}
+
+#enfant {
+    background-color: violet;
+}
