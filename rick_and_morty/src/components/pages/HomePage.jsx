@@ -22,14 +22,11 @@ const HomePage = () => {
             <select className="flex p-6 justify-center" onChange={handleChange}>
                 <option>...</option>
                 {data
-
                     .map((el) => {
                         return (
                             <option key={el.id}>{el.name}</option>
                         )
                     })
-
-
                 }
             </select>
 
@@ -38,7 +35,7 @@ const HomePage = () => {
                     .filter((el) => selectedValue === "..." || selectedValue === el.name)
                     .map((el) => {
                         return (
-                            <RickAndMortyCard key={el.id} name={el.name} image={el.image} />
+                            <RickAndMortyCard key={el.id} id={el.id} name={el.name} image={el.image} />
                         )
                     })
                 }
